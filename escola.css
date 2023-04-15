@@ -106,7 +106,7 @@ body {
 
 /* Define styles for the rodape element */
 #rodape {
-  background-image: url(imagem/rodape.jpg);
+  background-image: url(imagem/rodape.JPG);
   background-size: cover; /* Adjust to cover the entire width */
   background-repeat: no-repeat; /* Set background image to not repeat */
   background-position: left bottom; /* Adjust to center image at the bottom */
