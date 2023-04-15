@@ -1,0 +1,120 @@
+/* Reset default margin and padding for all elements */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background image for the body element */
+body {
+  background-image: url(imagem/fundo.jpg);
+  background-size: cover; /* Adjust to cover the entire page */
+  background-position: center; /* Adjust to center the image */
+}
+
+/* Define styles for the header element */
+#topo {
+  background-image: url(imagem/banner.jpg);
+  height: 165px;
+  background-color: #fff; /* Set white background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat; /* Set background image to not repeat */
+  background-size: 35%;
+  background-position: center; /* Adjust to center the image */
+}
+
+#menu {
+  z-index: 2; /* Set z-index to a higher value */
+  background-color: #fff; /* Set white background color */
+  width: 220px; /* Set width to 200px */
+  position: fixed;
+  top: 170px;
+  left: 3px;
+  height: 315px; /* Set height to 250px */
+  margin-top: 3px; /* Set margin top to 5px */
+  margin-left: 3px;
+  font-size: 16px; /* Set font size to 16px */
+  /* Add your desired styles here */
+}
+
+/* Define styles for the menu list */
+#menu-list {
+  list-style-type: none;
+  padding: 0;
+  /* Add your desired styles here */
+}
+
+/* Define styles for the menu items */
+#menu-list li {
+  padding: 10px;
+  background-color: #fff; /* Set white background color */
+  border-bottom: 1px solid #ccc; /* Add grey line divider */
+  /* Add your desired styles here */
+  /* Add transition for smooth hover effect */
+  transition: background-color 0.3s ease;
+}
+
+/* Define styles for the menu item links */
+#menu-list li a {
+  text-decoration: none;
+  color: #777; /* Set font color to grey */
+  /* Add your desired styles here */
+}
+
+/* Define styles for the menu item links on hover */
+#menu-list li:hover {
+  background-color: #f0f0f0; /* Set grey background color on hover */
+}
+
+/* Define styles for the menu item link on hover */
+#menu-list li:hover a {
+  color: #777; /* Set font color to grey on hover */
+  /* Add your desired styles here */
+}
+
+#conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Set align-items to flex-start to align image to the top */
+  height: calc(100vh - 300px); /* Subtract the height of header from the viewport height */
+  background-image: url(imagem/home.png);
+  background-size: contain; /* Adjust to display the image at its original size */
+  background-repeat: no-repeat; /* Set background image to not repeat */
+  background-position: center; /* Adjust to center the image vertically at the top */
+  margin-top: 8px;
+  margin-left: 85px;
+}
+
+/* Define styles for the column container */
+#publicidade {
+  width: 136px; /* Set width to 210px */
+  position: fixed; /* Set position to fixed */
+  top: 0; /* Set top to 0 to stick to the top of the viewport */
+  right: 0; /* Set right to 0 to align with the right side of the page */
+  margin-right: 6px;
+  margin-top: 173px; /* Add margin-top to create space from the top */
+}
+
+/* Define styles for the images in the column */
+#publicidade img {
+  display: block; /* Set display to block for proper spacing between images */
+  margin-bottom: 3px; /* Add margin-bottom to create spacing between images */
+  max-width: 100%; /* Set max width to 100% to fit within column */
+  height: 100%;
+}
+
+/* Define styles for the rodape element */
+#rodape {
+  background-image: url(imagem/rodape.jpg);
+  background-size: cover; /* Adjust to cover the entire width */
+  background-repeat: no-repeat; /* Set background image to not repeat */
+  background-position: left bottom; /* Adjust to center image at the bottom */
+  height: 140px; /* Set height to 200px */
+  width: calc(100% - 148px);
+  margin-bottom: 0; /* Remove margin bottom */
+  position: fixed; /* Set position to fixed */
+  bottom: 0; /* Set bottom to 0 to stick to the bottom of the viewport */
+  left: 0; /* Set left to 0 to stretch to the entire width of the viewport */
+  right: 0; /* Set right to 0 to stretch to the entire width of the viewport */
+}
